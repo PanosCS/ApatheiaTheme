@@ -7,12 +7,7 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.panoscs.apatheiatheme.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.panoscs.apatheiatheme.services.MyProjectService"/>
+        <themeProvider id="4132b4b7-8f8c-419b-818e-f7c8945c2c23" path="/theme/Apatheia.theme.json"/>
     </extensions>
 
-    <applicationListeners>
-        <listener class="com.github.panoscs.apatheiatheme.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>

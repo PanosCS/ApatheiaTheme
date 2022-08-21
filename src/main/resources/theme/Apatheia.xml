@@ -1,0 +1,12 @@
+<scheme name="Apatheia" version="142" parent_scheme="Darcula">
+    <attributes>
+        <option name="TEXT">
+            <value>
+                <option name="FOREGROUND" value="AFB9C3"/>
+<!--                <option name="BACKGROUND" value="2b2a33"/>-->
+                <option name="BACKGROUND" value="1b222d"/>
+            </value>
+        </option>
+
+    </attributes>
+</scheme>
