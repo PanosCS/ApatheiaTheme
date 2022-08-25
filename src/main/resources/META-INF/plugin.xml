@@ -7,6 +7,9 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
+        <applicationService serviceImplementation="com.github.panoscs.apatheiatheme.ApatheiaSettings"/>
+        <postStartupActivity implementation="com.github.panoscs.apatheiatheme.ApatheiaStartupActivity"/>
+        <notificationGroup displayType="STICKY_BALLOON" id="Apatheia Notification Group"/>
         <themeProvider id="4132b4b7-8f8c-419b-818e-f7c8945c2c23" path="/theme/Apatheia.theme.json"/>
     </extensions>
 
