@@ -1,4 +1,9 @@
 <scheme name="Apatheia" version="142" parent_scheme="Darcula">
+    <colors>
+        <option name="GUTTER_BACKGROUND" value="1b222d" />
+        <option name="LINE_NUMBERS_COLOR" value="a3a5ba" />
+        <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="d3fbd8" />
+    </colors>
     <attributes>
         <option name="TEXT">
             <value>
@@ -7,6 +12,5 @@
                 <option name="BACKGROUND" value="1b222d"/>
             </value>
         </option>
-
     </attributes>
 </scheme>
