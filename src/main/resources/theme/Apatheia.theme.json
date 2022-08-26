@@ -59,7 +59,7 @@
       "borderColor": "redberry"
     },
     "Button": {
-      "arc": "15",
+      "arc": "12",
       "foreground": "primaryForeground",
       "startBorderColor": "selectionBackground",
       "endBorderColor": "selectionBackground",
@@ -88,14 +88,70 @@
       "inactiveWarningFocusColor": "#f1fa8c"
     },
     "Editor": {
-      "background": "#1b222d",
-      "shortcutForeground": "secondaryAccentColor"
+      "background": "#212732",
+      "shortcutForeground": "lochinvar",
+      "SearchField": {
+        "background": "#212732",
+        "borderInsets": "bluelagoon"
+      }
     },
     "EditorTabs": {
-      "background": "#1b222d",
+      "background": "#212732",
       "underlinedTabBackground": "#292b38",
-      "underlineColor": "secondaryAccentColor",
       "underlineHeight": 2
+    },
+    "FileColor": {
+      "Blue": "#ff0000"
+    },
+    "Label": {
+      "errorForeground": "redberry"
+    },
+    "Notification": {
+      "ToolWindow": {
+        "warningForeground": "primaryForeground",
+        "warningBackground": "primaryBackground",
+        "warningBorderColor": "#ffb86c",
+        "errorForeground": "primaryForeground",
+        "errorBorderColor": "redberry",
+        "errorBackground": "primaryBackground",
+        "informativeForeground": "primaryForeground",
+        "informativeBackground": "primaryBackground",
+        "informativeBorderColor": "#50fa7b"
+      }
+    },
+    "Plugins.hoverBackground": "redberry",
+    "Plugins.lightSelectionBackground": "redberry",
+    "Plugins.Tab.selectedBackground": "redberry",
+
+    "TabbedPane": {
+      "tabSelectionHeight": 1,
+      "focusColor": "redberry",
+      "hoverColor": "redberry",
+      "underlineColor": "redberry",
+      "contentAreaColor": "redberry"
+    },
+
+    "ToolWindow": {
+      "Button.hoverBackground": "hoverBackground",
+      "Header": {
+        "background": "#212732",
+        "inactiveBackground": "primaryBackground"
+      }
+    },
+    "WelcomeScreen": {
+      "captionBackground": "redberry",
+      "footerBackground": "redberry",
+      "headerBackground": "#00ff00",
+      "headerForeground": "#0000ff",
+      "Projects": {
+        "background": "redberry"
+      }
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Blue": "#0094ff",
+      "Actions.Green": "#8bd982"
     }
   }
 }
